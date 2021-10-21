@@ -1,5 +1,5 @@
 from pymongo import MongoClient
-client = MongoClient("mongodb+srv://username:password@cluster0-XYZURL.mongodb.net/test?retryWrites=true&w=majority")
+client = MongoClient("mongodb+srv://covidBot:ja49u8F.*2N8FTv@cluster0.4vevt.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
 db = client.get_database('covid19DB')
 records = db.chat_records
 print(records.count_documents({}))
